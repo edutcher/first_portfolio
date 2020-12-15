@@ -39,12 +39,18 @@
         <div class="container">
             <h1>Contact</h1>
             <hr>
-            <h5>Name</h5>
-            <input id="name" type="text">
-            <h5>Email</h5>
-            <input id="email" type="email">
-            <h5>Message</h5>
-            <input id="msg-box" type="text"><br>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="msg-box" class="form-label">Message</label>
+                <textarea class="form-control" id="msg-box" rows="3"></textarea>
+            </div>
             <button id="submit-btn" class="btn btn-danger">Sumbit</button>
         </div>
     </main>
