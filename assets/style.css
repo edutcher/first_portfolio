@@ -1,3 +1,9 @@
 main {
     margin-top: 75px;
 }
+
+#port img {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
