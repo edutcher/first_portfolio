@@ -16,14 +16,12 @@ main {
     margin: 15px;
 }
 
-#port {
-    background-color: white;
+#about img {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
 }
 
-#about {
-    background-color: white;
-}
-
-#contact {
+.container {
     background-color: white;
 }
