@@ -2,14 +2,6 @@ body {
     background-color: rgb(202, 17, 17);
 }
 
-main {
-    margin-top: 75px;
-}
-
-#submit-btn {
-    margin-bottom: 15px;
-}
-
 #port img {
     height: 350px;
     width: 350px;
