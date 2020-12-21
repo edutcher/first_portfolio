@@ -1,6 +1,11 @@
+/* set background image for all page bodies*/
+
 body {
     background-image: url('back.jpg');
 }
+
+
+/* fixes image sizes and margins in portfolio */
 
 #port img {
     height: 350px;
@@ -8,15 +13,24 @@ body {
     margin: 15px;
 }
 
+
+/* fixes image sizes and margins in About me */
+
 #about img {
     height: 150px;
     width: 150px;
     margin: 15px;
 }
 
+
+/* adds some minor margin to text on About Me page */
+
 #about p {
     margin: 15px;
 }
+
+
+/* gives the containers a white background to stand out */
 
 .container {
     background-color: white;
